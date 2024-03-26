@@ -57,8 +57,8 @@ endGame();
 }
 
 function displayGuess(guess){
-userInput.value='';
-guessSlot.innerHTML += `${guess}`;
+userInput.value= '';
+guessSlot.innerHTML += `${guess}, `;
 numGuess++;
 remaining.innerHTML=`${11 - numGuess}`;
 }
